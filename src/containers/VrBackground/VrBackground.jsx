@@ -17,9 +17,11 @@ class VrBackground extends Component {
       70,
       window.innerWidth / window.innerHeight,
       0.01,
-      1000
+      2000
     );
-    camera.position.z = 50;
+    camera.position.x = -250;
+    camera.position.y = -50;
+    camera.position.z = -20
   
     const scene = new THREE.Scene();
   
@@ -59,7 +61,7 @@ class VrBackground extends Component {
   
     const renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setSize(window.innerWidth, window.innerHeight);
-    document.body.appendChild(renderer.domElement);
+    this.mount.appendChild(renderer.domElement);
   
     const  controls = new OrbitControls(camera, renderer.domElement)
       controls.minDistance = 1
@@ -79,9 +81,7 @@ class VrBackground extends Component {
 
   render() {
     return (
-      <div>
-        
-      </div>
+    <div className="background" ref={ref => (this.mount = ref)} />
     );
   }
 }

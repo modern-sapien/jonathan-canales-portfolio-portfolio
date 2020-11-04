@@ -1,13 +1,6 @@
-html{
-  height:    100%;
-}
-body {
-  background: black;
-}
-
-
-main {
-  min-height: calc(100vh - 78px - 56px);
+html,body {
+  height: 100%;
+  margin: 0;
 }
 
 a:link {
@@ -23,17 +16,16 @@ a:visited {
   font-size: 16px;
 }
 
-.dark-mode-nav{
-  background: rgb(27, 27, 27);
-  color: whitesmoke;
-  box-shadow: 2px 0px 6px whitesmoke;
-  font-size: 18px;
-}
-
 .dark-mode{
   background: black;
   color: whitesmoke;
   font-size: 18px;
+}
+
+.nav-item{
+  border-left: 2px solid whitesmoke;
+  margin-right: 10px;
+  font-weight: bold;
 }
 
 .image-container{
@@ -58,6 +50,32 @@ a:visited {
 }
 
 .footer {
-margin-top: auto;
-width: 100%;
+  background: black;
+  border-top: 1px solid #ffffff;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+}
+
+.wrapper{
+min-height: calc( 100vh - 40px);
+}
+
+.dark-mode-nav{
+  background: rgb(0, 0, 0);
+  color: whitesmoke;
+  box-shadow: 2px 0px whitesmoke;
+  font-size: 18px;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.background{
+  z-index: -100;
 }

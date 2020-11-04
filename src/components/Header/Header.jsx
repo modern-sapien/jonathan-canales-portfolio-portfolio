@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom"
 
-const Navbar = () => {
+const Header = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark dark-mode-nav">
         <a className="navbar-brand ml-2" href="index.html">Jonathan Canales</a>
@@ -28,4 +28,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Header;
