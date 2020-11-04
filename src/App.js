@@ -1,10 +1,11 @@
 import "./App.css";
 import VrBackground from "./containers/VrBackground/VrBackground";
+import Navbar from "./components/Navbar/Navbar"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      Hello
+    <div>
+      <Navbar />
       <VrBackground />
     </div>
   );

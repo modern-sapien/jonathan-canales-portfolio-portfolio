@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+html{
+  height:    100%;
+}
+body {
+  background: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+main {
+  min-height: calc(100vh - 78px - 56px);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:link {
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 16px;
+}
+a:visited {
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dark-mode-nav{
+  background: rgb(27, 27, 27);
+  color: whitesmoke;
+  box-shadow: 2px 0px 6px whitesmoke;
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+.dark-mode{
+  background: black;
+  color: whitesmoke;
+  font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image-container{
+  contain: content;
+}
+
+.line {
+  background: whitesmoke;
+  height: 2px;
+}
+
+.text-vertical-center {
+  padding-top: 18%;
+}
+
+.modern-sapien-btn {
+  background: blueviolet;
+  border: black;
+  color: cornsilk;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px -px whitesmoke;
+}
+
+.footer {
+margin-top: auto;
+width: 100%;
 }
