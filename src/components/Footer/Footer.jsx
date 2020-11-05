@@ -31,7 +31,7 @@ const FooterInfo= [
 ]
 const Footer = () => {
     return (
-        <div className="footer row fluid-container mb-2">
+        <div className="footer row fluid-container">
             <FooterIcon FooterInfo={FooterInfo} />
         </div>
     );
