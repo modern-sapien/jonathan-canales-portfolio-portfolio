@@ -1,22 +1,19 @@
 import "./App.css";
-import VrBackground from "./containers/VrBackground/VrBackground";
-import Header from "./components/Header/Header"
-import Footer from "./components/Footer/Footer"
+import VrBackground from "./components/VrBackground/VrBackground";
+import About from "./containers/About/About"
+import Projects from "./containers/Projects/Projects"
+
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 
 const App = () => {
   return (
     <>
-    <div className="wrapper">
-      <Header />
-      <VrBackground />
+      <VrBackground/>
       <Router>
-        <Route />
-        <Route />
-        <Route />
+        <Route exact path="/" component={About} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/projects" component={About} />
       </Router>
-    </div>
-      <Footer>Hate footers </Footer>
     </>
   );
 }
