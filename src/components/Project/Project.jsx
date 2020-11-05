@@ -3,8 +3,8 @@ import React from "react";
 const Project = (props) => {
   return (
     <>
-      {props.groceries.map((item) => (
-        <div className="col-sm-4">{item.name} </div>
+      {props.projects.map((project) => (
+        <div className="col-sm-4">{project.name} </div>
       ))}
     </>
   );

@@ -3,36 +3,57 @@ import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import Project from "../../components/Project/Project";
 
-const groceries = [
+
+import EmployeeDirectoryImg from "../../images/employee-directory.png"
+import PersonaGenImg from "../../images/persona-gen.png"
+import NoteTakerImg from "../../images/note-taker.png"
+import QuizGameImg from "../../images/quiz-game-screenshot.png"
+import WeatherDashImg from "../../images/weather-dash-display.png"
+
+
+
+const projects = [
   {
     id: 1,
-    name: "Milk",
-    purchased: true,
+    name: "Employee Directory",
+    img: {EmployeeDirectoryImg},
+    git: "https://github.com/modern-sapien/react-employee-directory",
+    deployed: "https://modern-sapien.github.io/react-employee-directory/"
   },
   {
     id: 2,
-    name: "Eggs",
-    purchased: true,
+    name: "Persona Generator",
+    img: {PersonaGenImg},
+    git: "https://github.com/modern-sapien/personaGen",
+    deployed: "https://modern-sapien.github.io/personaGen/"
   },
   {
     id: 3,
-    name: "Cheese",
-    purchased: false,
+    name: "Note Taker",
+    img: {NoteTakerImg},
+    git: "https://github.com/modern-sapien/express-homework-note-taker1",
+    deployed: "https://express-note-taker-move.herokuapp.com/notes"
   },
   {
     id: 4,
-    name: "Cake Mix",
-    purchased: false,
+    name: "Quiz Game",
+    img: {QuizGameImg},
+    git: "https://github.com/modern-sapien/javascript-quiz-project",
+    deployed: "https://modern-sapien.github.io/javascript-quiz-project/"
   },
   {
     id: 5,
-    name: "Carrots",
-    purchased: false,
+    name: "Weather Dash",
+    img: {WeatherDashImg},
+    git: "https://github.com/modern-sapien/weather-dashboard-forecaster",
+    deployed: "https://modern-sapien.github.io/weather-dashboard-forecaster/"
   },
   {
     id: 6,
-    name: "Juice",
-    purchased: true,
+    name: "PWA Budget App",
+    img: {WeatherDashImg},
+    git: "https://github.com/modern-sapien/pwa-budget-tracker",
+    deployed: "https://pwa-budget-tracking.herokuapp.com/"
   },
 ];
 
@@ -47,7 +68,7 @@ const Portfolio = () => {
               <div className="row content"> </div>
               <h3 className="text-light ">Project Gallery</h3>
               <div className="row text-light mt-4">
-                <Project groceries={groceries} />
+                <Project projects={projects} />
               </div>
             </div>
           </div>
