@@ -84,7 +84,7 @@ min-height: calc( 100vh - 50px);
 }
 
 #info {
-	position: relative;
+	position: absolute;
 	text-align: left;
   display:block;
   background: whitesmoke;

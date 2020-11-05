@@ -62,12 +62,12 @@ const Portfolio = () => {
     <div>
       <Header />
       <div id="info" className="container bg-transparent">
-        <div className="row container">
+        <div className="row container bg-transparent">
           <div className="col-sm-12 mb-2 mt-3 card bg-transparent">
-            <div className="card-body">
-              <div className="row mt-3"> </div>
-              <h3 className="text-light ">Project Gallery</h3>
-              <div className="row text-light mt-4">
+            <div className="card-body bg-transparent">
+              <div className="row mt-3 bg-transparent"> </div>
+              <h3 className="text-light bg-transparent">Project Gallery</h3>
+              <div className="row text-light mt-4 bg-transparent">
                 <Project projects={projects} />
               </div>
             </div>
