@@ -6,7 +6,8 @@ import AboutPhoto from "./home-canales.png";
 const About = () => {
   return (
     <div>
-      <Header />
+
+      <Header className="pushdown" />
       <div id="info" className="container bg-transparent">
         <div className="row container">
           <div className="col-sm-12 mb-2 mt-3 card bg-transparent">

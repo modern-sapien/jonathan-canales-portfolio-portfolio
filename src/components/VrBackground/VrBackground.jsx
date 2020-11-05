@@ -31,7 +31,6 @@ class VrBackground extends Component {
     let texture_rt = new THREE.TextureLoader().load(corona_rt)
     let texture_lf = new THREE.TextureLoader().load(corona_lf)
 
-
     materialArray.push(new THREE.MeshBasicMaterial({map: texture_ft}))
     materialArray.push(new THREE.MeshBasicMaterial({map: texture_bk}))
     materialArray.push(new THREE.MeshBasicMaterial({map: texture_up}))
