@@ -19,7 +19,7 @@ class VrBackground extends Component {
       0.01,
       1000
     );
-    camera.position.z = 100;
+    camera.position.z = 20;
 
     const scene = new THREE.Scene();
 
