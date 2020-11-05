@@ -1,5 +1,5 @@
 html,body {
-  height: 100%;
+  height: 100vh;
   margin: 0;
 }
 
@@ -42,7 +42,7 @@ a:visited {
 }
 
 .modern-sapien-btn {
-  background: blueviolet;
+  background: rgb(84, 0, 163);
   border: black;
   color: cornsilk;
   font-weight: bold;
@@ -82,13 +82,20 @@ min-height: calc( 100vh - 40px);
 
 #info {
 	position: absolute;
-	top: 50%;
-  width: 400px;
   margin-left: 100px;
-	text-align: center;
-	z-index: 100;
+	text-align: left;
+  z-index: 0;
   display:block;
   background: whitesmoke;
-  font-size: 24px;
+  font-size: 18px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.image-container{
+  max-width: 80%;
+  height: auto;
+}
+
+.content{
+  margin-top: 25vh !important;
 }

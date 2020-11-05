@@ -14,12 +14,12 @@ class VrBackground extends Component {
     // let geometry, material, mesh, sphere;
 
       const camera = new THREE.PerspectiveCamera(
-      70,
+      100,
       window.innerWidth / window.innerHeight,
       0.01,
       1000
     );
-    camera.position.z = 50;
+    camera.position.z = 100;
 
     const scene = new THREE.Scene();
 
@@ -47,12 +47,12 @@ class VrBackground extends Component {
     let skybox = new THREE.Mesh(skyboxGeo, materialArray)
     scene.add(skybox);
 
-    const geometry1 = new THREE.BoxGeometry(4, 4, 4);
+    const geometry1 = new THREE.BoxGeometry(1.5, 1.5, 1.5);
     const material1 = new THREE.MeshNormalMaterial({ wireframe: true });
     const mesh1 = new THREE.Mesh(geometry1, material1);
     scene.add(mesh1);
 
-    const geometry2 = new THREE.SphereGeometry(10, 10, 10);
+    const geometry2 = new THREE.SphereGeometry(4, 4, 4);
     const material2 = new THREE.MeshNormalMaterial({ wireframe: true });
     const sphere2 = new THREE.Mesh(geometry2, material2);
     scene.add(sphere2);
