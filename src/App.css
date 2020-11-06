@@ -1,7 +1,7 @@
-html,body {
+/* html,body {
   height: 100vh;
   margin: 0;
-}
+} */
 
 a:link {
   color:white;
@@ -129,3 +129,7 @@ min-height: calc( 100vh - 50px);
   margin-bottom: 1000px;
 }
 
+.hyperlink{
+  color:rgb(255, 230, 0);
+  text-decoration: underline;
+}

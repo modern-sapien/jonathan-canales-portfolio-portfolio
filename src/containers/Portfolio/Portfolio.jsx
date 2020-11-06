@@ -59,9 +59,7 @@ const projects = [
 const Portfolio = () => {
   return (
     <>
-      <Header />
-      <div className="row">
-      <div className="card col-4 pb-3 mt-5" style={{ width: "18rem" }}>
+      {/* <div className="card pb-3 mt-5" style={{ width: "18rem" }}>
         <img src={WeatherDashImg} style={{ width: "200px" }} />
         <div className="card-body ">
           <h5>Hello There</h5>
@@ -73,82 +71,14 @@ const Portfolio = () => {
             Button
           </a>
         </div>
-      </div>
-      <div className="card col-4 pb-3 mt-5" style={{ width: "18rem" }}>
-        <img src={WeatherDashImg} style={{ width: "200px" }} />
-        <div className="card-body ">
-          <h5>Hello There</h5>
-          <p className="card-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum,
-            dolores vitae temporibus quae quisquam, est dicta eligendi ve
-          </p>
-          <a href="dead" class="btn btn-primary">
-            Button
-          </a>
-        </div>
-      </div>
-      <div className="card col-4 pb-3 mt-5" style={{ width: "18rem" }}>
-        <img src={WeatherDashImg} style={{ width: "200px" }} />
-        <div className="card-body ">
-          <h5>Hello There</h5>
-          <p className="card-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum,
-            dolores vitae temporibus quae quisquam, est dicta eligendi ve
-          </p>
-          <a href="dead" class="btn btn-primary">
-            Button
-          </a>
-        </div>
-      </div>
-      <div className="card col-4 pb-3 mt-5" style={{ width: "18rem" }}>
-        <img src={WeatherDashImg} style={{ width: "200px" }} />
-        <div className="card-body ">
-          <h5>Hello There</h5>
-          <p className="card-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum,
-            dolores vitae temporibus quae quisquam, est dicta eligendi ve
-          </p>
-          <a href="dead" class="btn btn-primary">
-            Button
-          </a>
-        </div>
-      </div>
-      <div className="card col-4 pb-3 mt-5" style={{ width: "18rem" }}>
-        <img src={WeatherDashImg} style={{ width: "200px" }} />
-        <div className="card-body ">
-          <h5>Hello There</h5>
-          <p className="card-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum,
-            dolores vitae temporibus quae quisquam, est dicta eligendi ve
-          </p>
-          <a href="dead" class="btn btn-primary">
-            Button
-          </a>
-        </div>
-      </div>
-      <div className="card col-4 pb-3 mt-5" style={{ width: "18rem" }}>
-        <img src={WeatherDashImg} style={{ width: "200px" }} />
-        <div className="card-body ">
-          <h5>Hello There</h5>
-          <p className="card-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum,
-            dolores vitae temporibus quae quisquam, est dicta eligendi ve
-          </p>
-          <a href="dead" class="btn btn-primary">
-            Button
-          </a>
-        </div>
-      </div>
-      </div>
-
-      {/* <div id="info" className="row py-3 container bg-transparent">
+      </div> */}
+ 
+      <div id="info" className="row py-3 container bg-transparent">
           <div className="row mt-5">
               <h3 className="text-light col-12">Project Gallery</h3>
                 <Project projects={projects} />
           </div>
-          </div> */}
-
-      <Footer />
+          </div>
     </>
   );
 };

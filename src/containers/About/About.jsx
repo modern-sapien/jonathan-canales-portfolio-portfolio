@@ -7,9 +7,9 @@ const About = () => {
   return (
     <>
 
-      <Header className="" />
+    
 
-      <div id="info" className="bg-transparent container pr-3">
+      <div id="info" className="bg-transparent container ">
               {/* <div className="row"> */}
                 {/* <div className="col-1"></div> */}
 
@@ -31,7 +31,7 @@ const About = () => {
                 {/* <div className="col-1"></div> */}
               {/* </div> */}
             </div>
-      <Footer />
+
     </>
   );
 };
