@@ -19,7 +19,8 @@ class VrBackground extends Component {
       0.01,
       1000
     );
-    camera.position.z = 20;
+    camera.position.z = Math.random() * Math.floor(100);
+    camera.position.y = Math.random() * Math.floor(200);
 
     const scene = new THREE.Scene();
 
