@@ -8,9 +8,7 @@ import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 
 const App = () => {
   return (
-    <div>
-      <VrBackground/>
-      
+    <div>      
       <Router>
       <Header />
         <Route exact path="/" component={About} />

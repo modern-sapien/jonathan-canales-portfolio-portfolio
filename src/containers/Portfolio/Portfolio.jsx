@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import Project from "../../components/Project/Project";
-
+import VrBackground from "../../components/VrBackground/VrBackground";
 import EmployeeDirectoryImg from "../../images/employee-directory.png";
 import PersonaGenImg from "../../images/persona-gen.png";
 import NoteTakerImg from "../../images/note-taker.png";
@@ -72,7 +72,7 @@ const Portfolio = () => {
           </a>
         </div>
       </div> */}
- 
+ <VrBackground />
       <div id="info" className="row py-3 container bg-transparent">
           <div className="row mt-5">
               <h3 className="text-light col-12">Project Gallery</h3>
