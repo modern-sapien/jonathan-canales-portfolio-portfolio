@@ -31,7 +31,7 @@ const FooterInfo= [
 ]
 const Footer = () => {
     return (
-        <div className="footer row fluid-container">
+        <div className="footer row">
             <FooterIcon FooterInfo={FooterInfo} />
         </div>
     );

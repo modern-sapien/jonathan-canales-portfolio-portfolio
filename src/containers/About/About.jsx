@@ -5,41 +5,34 @@ import AboutPhoto from "./home-canales.png";
 
 const About = () => {
   return (
-    <div>
+    <>
 
-      <Header className="pushdown" />
-      <div id="info" className="container bg-transparent">
-        <div className="row container">
-          <div className="col-sm-12 mb-2 mt-3 card bg-transparent">
-            <div className="card-body bg-tranparent">
-              <div className="row">
-                <div className="col-sm-1"></div>
+      <Header className="" />
 
-                <div className="col-sm-4 mt-4 content">
+      <div id="info" className="bg-transparent container pr-3">
+              {/* <div className="row"> */}
+                {/* <div className="col-1"></div> */}
+
+                <div className="col-6 content mx-4">
                   <img
                     src={AboutPhoto}
                     className="image-container"
                     alt="Go straight to hell"
                   />
                 </div>
-                <div className="col-sm-2"></div>
 
-                <div className="col-sm-4 content text-light">
-                  <div className="row mt-5">
-                    I’m a driven and bold Software Developer, UX Designer &
+                <div className="col-6 ml-2 content text-light">
+                  <p> I’m a driven and bold Software Developer, UX Designer &
                     Researcher that is passionate about solving problems through
                     intentional processes.
-                    <div className="btn btn-light modern-sapien-btn mt-5" id="projects-button"> PROJECTS</div>
-                  </div>
-                </div>
-                <div className="col-sm-1"></div>
-              </div>
+                    </p>
+                    <div className="btn btn-light modern-sapien-btn col-8" id="projects-button"> PROJECTS</div>
+                 </div>
+                {/* <div className="col-1"></div> */}
+              {/* </div> */}
             </div>
-          </div>
-        </div>
-      </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

@@ -77,11 +77,9 @@ class VrBackground extends Component {
   }
   render() {
     return (
-      <div>
-      {/* <div id="dark-mode-nav">Navbar</div>
-      <div id="info">Room Description</div> */}
+
       <div className="background" ref={ref => (this.mount = ref)} />
-    </div>
+
     );
   }
 }
