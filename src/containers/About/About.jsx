@@ -2,7 +2,6 @@ import React from "react";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import VrBackground from "../../components/VrBackground/VrBackground";
-
 import AboutPhoto from "./home-canales.png";
 
 const About = () => {
@@ -30,8 +29,7 @@ const About = () => {
                     </p>
                     <div className="btn btn-light modern-sapien-btn col-8" id="projects-button"> PROJECTS</div>
                  </div>
-                {/* <div className="col-1"></div> */}
-              {/* </div> */}
+  
             </div>
 
     </>
