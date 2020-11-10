@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <div className="navbar navbar-expand-lg navbar-dark dark-mode-nav ">
-      <NavLink className="navbar-brand ml-2" to="/">
+      <NavLink className="navbar-brand ml-2" to="/jonathan-canales-portfolio-react/">
         Jonathan Canales
       </NavLink>
       <button
@@ -43,15 +43,15 @@ const Header = () => {
           </li>
 
           <li className="nav-item font-weight-normal">
-            <a className="nav-link" id="portfolio" href="/portfolio">
+            <Navlink className="nav-link" id="portfolio" to="/jonathan-canales-portfolio-react/portfolio">
               Portfolio
-            </a>
+            </Navlink>
           </li>
 
           <li className="nav-item font-weight-normal">
-            <a className="nav-link" id="index" href="/">
+            <Navlink className="nav-link" id="index" to="/jonathan-canales-portfolio-react/">
               About
-            </a>
+            </Navlink>
           </li>
         </ul>
       </div>
