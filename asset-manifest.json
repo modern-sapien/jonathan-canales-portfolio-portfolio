@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jonathan-canales-portfolio-react/static/css/main.f91430b2.chunk.css",
-    "main.js": "/jonathan-canales-portfolio-react/static/js/main.8fca5d52.chunk.js",
-    "main.js.map": "/jonathan-canales-portfolio-react/static/js/main.8fca5d52.chunk.js.map",
+    "main.js": "/jonathan-canales-portfolio-react/static/js/main.d97f5384.chunk.js",
+    "main.js.map": "/jonathan-canales-portfolio-react/static/js/main.d97f5384.chunk.js.map",
     "runtime-main.js": "/jonathan-canales-portfolio-react/static/js/runtime-main.c59fefb5.js",
     "runtime-main.js.map": "/jonathan-canales-portfolio-react/static/js/runtime-main.c59fefb5.js.map",
     "static/js/2.b667f9ed.chunk.js": "/jonathan-canales-portfolio-react/static/js/2.b667f9ed.chunk.js",
@@ -22,6 +22,7 @@
     "static/media/home-canales.c7a0f639.png": "/jonathan-canales-portfolio-react/static/media/home-canales.c7a0f639.png",
     "static/media/note-taker.b7330bc6.png": "/jonathan-canales-portfolio-react/static/media/note-taker.b7330bc6.png",
     "static/media/persona-gen.9129d816.png": "/jonathan-canales-portfolio-react/static/media/persona-gen.9129d816.png",
+    "static/media/pwa-budget.bc0b8452.png": "/jonathan-canales-portfolio-react/static/media/pwa-budget.bc0b8452.png",
     "static/media/quiz-game-screenshot.42cdbd87.png": "/jonathan-canales-portfolio-react/static/media/quiz-game-screenshot.42cdbd87.png",
     "static/media/weather-dash-display.70960b5f.png": "/jonathan-canales-portfolio-react/static/media/weather-dash-display.70960b5f.png"
   },
@@ -29,6 +30,6 @@
     "static/js/runtime-main.c59fefb5.js",
     "static/js/2.b667f9ed.chunk.js",
     "static/css/main.f91430b2.chunk.css",
-    "static/js/main.8fca5d52.chunk.js"
+    "static/js/main.d97f5384.chunk.js"
   ]
 }
