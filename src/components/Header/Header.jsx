@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark dark-mode-nav ">
+    <nav className="navbar navbar-expand-sm navbar-dark dark-mode-nav ">
       <NavLink className="navbar-brand ml-2" to="/jonathan-canales-portfolio-react/">
         Jonathan Canales
       </NavLink>
