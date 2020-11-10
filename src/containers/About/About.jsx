@@ -14,7 +14,7 @@ const About = () => {
                   <img
                     src={AboutPhoto}
                     className="image-container"
-                    alt="Go straight to hell"
+                    alt="A young developer smiles back at you."
                   />
                 </div>
                 <div className="col-sm-6 col-md-4 ml-5 text-light">

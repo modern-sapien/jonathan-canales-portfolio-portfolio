@@ -3,10 +3,11 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="navbar navbar-expand-lg navbar-dark dark-mode-nav ">
+    <nav className="navbar navbar-expand-lg navbar-dark dark-mode-nav ">
       <NavLink className="navbar-brand ml-2" to="/jonathan-canales-portfolio-react/">
         Jonathan Canales
       </NavLink>
+
       <button
         className="navbar-toggler"
         type="button"
@@ -18,10 +19,9 @@ const Header = () => {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
+      
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        
         <ul className="navbar-nav ml-auto">
-          
           <li className="nav-item font-weight-normal">
             <a
               className="nav-link"
@@ -55,7 +55,7 @@ const Header = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 };
 
