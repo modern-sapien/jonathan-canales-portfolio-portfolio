@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 const Project = (props) => {
   return (
-    <div className="row">
+    <div className="row mt-2">
       {props.projects.map((project) => (
         <div key={project.id} className="col-4 text-light pb-2 info">
         <a href={project.deployed} target="blank">

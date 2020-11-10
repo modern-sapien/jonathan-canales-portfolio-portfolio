@@ -9,11 +9,7 @@ const About = () => {
     <>
 
       <VrBackground/>
-
-      <div id="info" className="bg-transparent  content container row ">
-              {/* <div className="row"> */}
-                {/* <div className="col-1"></div> */}
-
+      <div id="info" className="bg-transparent content container row mt-3" >
                 <div className="col-sm-5 col-md-4 ml-5">
                   <img
                     src={AboutPhoto}
@@ -21,7 +17,6 @@ const About = () => {
                     alt="Go straight to hell"
                   />
                 </div>
-
                 <div className="col-sm-6 col-md-4 ml-5 text-light">
                   <p> I’m a driven and bold Software Developer, UX Designer &
                     Researcher that is passionate about solving problems through
@@ -29,9 +24,7 @@ const About = () => {
                     </p>
                     <div className="btn btn-light modern-sapien-btn col-8" id="projects-button"> PROJECTS</div>
                  </div>
-  
             </div>
-
     </>
   );
 };

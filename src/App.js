@@ -14,8 +14,8 @@ const App = () => {
       <Router>
         <Header />
         <Route exact path="/jonathan-canales-portfolio-react/" component={About} />
-        <Route exact path="/jonathan-canales-portfolio-react/about" component={About} />
-        <Route exact path="/jonathan-canales-portfolio-react/portfolio" component={Portfolio} />
+        <Route exact path="/jonathan-canales-portfolio-react/about/" component={About} />
+        <Route exact path="/jonathan-canales-portfolio-react/portfolio/" component={Portfolio} />
         <Footer />
         </Router>
       
