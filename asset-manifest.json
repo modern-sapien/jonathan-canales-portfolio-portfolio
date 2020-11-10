@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/jonathan-canales-portfolio-react/static/css/main.f91430b2.chunk.css",
+    "main.js": "/jonathan-canales-portfolio-react/static/js/main.31da4532.chunk.js",
+    "main.js.map": "/jonathan-canales-portfolio-react/static/js/main.31da4532.chunk.js.map",
+    "runtime-main.js": "/jonathan-canales-portfolio-react/static/js/runtime-main.c59fefb5.js",
+    "runtime-main.js.map": "/jonathan-canales-portfolio-react/static/js/runtime-main.c59fefb5.js.map",
+    "static/js/2.a0ded102.chunk.js": "/jonathan-canales-portfolio-react/static/js/2.a0ded102.chunk.js",
+    "static/js/2.a0ded102.chunk.js.map": "/jonathan-canales-portfolio-react/static/js/2.a0ded102.chunk.js.map",
+    "static/js/3.6ed63718.chunk.js": "/jonathan-canales-portfolio-react/static/js/3.6ed63718.chunk.js",
+    "static/js/3.6ed63718.chunk.js.map": "/jonathan-canales-portfolio-react/static/js/3.6ed63718.chunk.js.map",
+    "index.html": "/jonathan-canales-portfolio-react/index.html",
+    "static/css/main.f91430b2.chunk.css.map": "/jonathan-canales-portfolio-react/static/css/main.f91430b2.chunk.css.map",
+    "static/js/2.a0ded102.chunk.js.LICENSE.txt": "/jonathan-canales-portfolio-react/static/js/2.a0ded102.chunk.js.LICENSE.txt",
+    "static/media/corona_bk.97e76adb.png": "/jonathan-canales-portfolio-react/static/media/corona_bk.97e76adb.png",
+    "static/media/corona_dn.47349e0d.png": "/jonathan-canales-portfolio-react/static/media/corona_dn.47349e0d.png",
+    "static/media/corona_ft.7254c08d.png": "/jonathan-canales-portfolio-react/static/media/corona_ft.7254c08d.png",
+    "static/media/corona_lf.b29e8c04.png": "/jonathan-canales-portfolio-react/static/media/corona_lf.b29e8c04.png",
+    "static/media/corona_rt.287e832e.png": "/jonathan-canales-portfolio-react/static/media/corona_rt.287e832e.png",
+    "static/media/corona_up.782ec698.png": "/jonathan-canales-portfolio-react/static/media/corona_up.782ec698.png",
+    "static/media/employee-directory.7e0d72c1.png": "/jonathan-canales-portfolio-react/static/media/employee-directory.7e0d72c1.png",
+    "static/media/home-canales.c7a0f639.png": "/jonathan-canales-portfolio-react/static/media/home-canales.c7a0f639.png",
+    "static/media/note-taker.b7330bc6.png": "/jonathan-canales-portfolio-react/static/media/note-taker.b7330bc6.png",
+    "static/media/persona-gen.9129d816.png": "/jonathan-canales-portfolio-react/static/media/persona-gen.9129d816.png",
+    "static/media/quiz-game-screenshot.42cdbd87.png": "/jonathan-canales-portfolio-react/static/media/quiz-game-screenshot.42cdbd87.png",
+    "static/media/weather-dash-display.70960b5f.png": "/jonathan-canales-portfolio-react/static/media/weather-dash-display.70960b5f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c59fefb5.js",
+    "static/js/2.a0ded102.chunk.js",
+    "static/css/main.f91430b2.chunk.css",
+    "static/js/main.31da4532.chunk.js"
+  ]
+}
