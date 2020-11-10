@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/jonathan-canales-portfolio-react/static/css/main.f91430b2.chunk.css",
-    "main.js": "/jonathan-canales-portfolio-react/static/js/main.ec6b501f.chunk.js",
-    "main.js.map": "/jonathan-canales-portfolio-react/static/js/main.ec6b501f.chunk.js.map",
+    "main.js": "/jonathan-canales-portfolio-react/static/js/main.8fca5d52.chunk.js",
+    "main.js.map": "/jonathan-canales-portfolio-react/static/js/main.8fca5d52.chunk.js.map",
     "runtime-main.js": "/jonathan-canales-portfolio-react/static/js/runtime-main.c59fefb5.js",
     "runtime-main.js.map": "/jonathan-canales-portfolio-react/static/js/runtime-main.c59fefb5.js.map",
-    "static/js/2.a0ded102.chunk.js": "/jonathan-canales-portfolio-react/static/js/2.a0ded102.chunk.js",
-    "static/js/2.a0ded102.chunk.js.map": "/jonathan-canales-portfolio-react/static/js/2.a0ded102.chunk.js.map",
+    "static/js/2.b667f9ed.chunk.js": "/jonathan-canales-portfolio-react/static/js/2.b667f9ed.chunk.js",
+    "static/js/2.b667f9ed.chunk.js.map": "/jonathan-canales-portfolio-react/static/js/2.b667f9ed.chunk.js.map",
     "static/js/3.6ed63718.chunk.js": "/jonathan-canales-portfolio-react/static/js/3.6ed63718.chunk.js",
     "static/js/3.6ed63718.chunk.js.map": "/jonathan-canales-portfolio-react/static/js/3.6ed63718.chunk.js.map",
     "index.html": "/jonathan-canales-portfolio-react/index.html",
     "static/css/main.f91430b2.chunk.css.map": "/jonathan-canales-portfolio-react/static/css/main.f91430b2.chunk.css.map",
-    "static/js/2.a0ded102.chunk.js.LICENSE.txt": "/jonathan-canales-portfolio-react/static/js/2.a0ded102.chunk.js.LICENSE.txt",
+    "static/js/2.b667f9ed.chunk.js.LICENSE.txt": "/jonathan-canales-portfolio-react/static/js/2.b667f9ed.chunk.js.LICENSE.txt",
     "static/media/corona_bk.97e76adb.png": "/jonathan-canales-portfolio-react/static/media/corona_bk.97e76adb.png",
     "static/media/corona_dn.47349e0d.png": "/jonathan-canales-portfolio-react/static/media/corona_dn.47349e0d.png",
     "static/media/corona_ft.7254c08d.png": "/jonathan-canales-portfolio-react/static/media/corona_ft.7254c08d.png",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c59fefb5.js",
-    "static/js/2.a0ded102.chunk.js",
+    "static/js/2.b667f9ed.chunk.js",
     "static/css/main.f91430b2.chunk.css",
-    "static/js/main.ec6b501f.chunk.js"
+    "static/js/main.8fca5d52.chunk.js"
   ]
 }
