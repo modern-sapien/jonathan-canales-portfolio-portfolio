@@ -43,15 +43,15 @@ const Header = () => {
           </li>
 
           <li className="nav-item font-weight-normal">
-            <Navlink className="nav-link" id="portfolio" to="/jonathan-canales-portfolio-react/portfolio">
+            <NavLink className="nav-link" id="portfolio" to="/jonathan-canales-portfolio-react/portfolio">
               Portfolio
-            </Navlink>
+            </NavLink>
           </li>
 
           <li className="nav-item font-weight-normal">
-            <Navlink className="nav-link" id="index" to="/jonathan-canales-portfolio-react/">
+            <NavLink className="nav-link" id="index" to="/jonathan-canales-portfolio-react/">
               About
-            </Navlink>
+            </NavLink>
           </li>
         </ul>
       </div>
