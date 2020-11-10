@@ -8,6 +8,7 @@ import PersonaGenImg from "../../images/persona-gen.png";
 import NoteTakerImg from "../../images/note-taker.png";
 import QuizGameImg from "../../images/quiz-game-screenshot.png";
 import WeatherDashImg from "../../images/weather-dash-display.png";
+import PWABudgetImg from "../../images/pwa-budget.png";
 
 console.log(EmployeeDirectoryImg);
 
@@ -50,7 +51,7 @@ const projects = [
   {
     id: 6,
     name: "PWA Budget App",
-    img: WeatherDashImg,
+    img: PWABudgetImg,
     git: "https://github.com/modern-sapien/weather-dashboard-forecaster",
     deployed: "https://pwa-budget-tracking.herokuapp.com/",
   },
@@ -59,19 +60,6 @@ const projects = [
 const Portfolio = () => {
   return (
     <>
-      {/* <div className="card pb-3 mt-5" style={{ width: "18rem" }}>
-        <img src={WeatherDashImg} style={{ width: "200px" }} />
-        <div className="card-body ">
-          <h5>Hello There</h5>
-          <p className="card-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum,
-            dolores vitae temporibus quae quisquam, est dicta eligendi ve
-          </p>
-          <a href="dead" class="btn btn-primary">
-            Button
-          </a>
-        </div>
-      </div> */}
  <VrBackground />
       <div id="info" className="row py-3 container bg-transparent">
           <div className="row mt-5">
