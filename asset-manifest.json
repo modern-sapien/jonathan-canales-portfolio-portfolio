@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jonathan-canales-portfolio-react/static/css/main.f91430b2.chunk.css",
-    "main.js": "/jonathan-canales-portfolio-react/static/js/main.31da4532.chunk.js",
-    "main.js.map": "/jonathan-canales-portfolio-react/static/js/main.31da4532.chunk.js.map",
+    "main.js": "/jonathan-canales-portfolio-react/static/js/main.ec6b501f.chunk.js",
+    "main.js.map": "/jonathan-canales-portfolio-react/static/js/main.ec6b501f.chunk.js.map",
     "runtime-main.js": "/jonathan-canales-portfolio-react/static/js/runtime-main.c59fefb5.js",
     "runtime-main.js.map": "/jonathan-canales-portfolio-react/static/js/runtime-main.c59fefb5.js.map",
     "static/js/2.a0ded102.chunk.js": "/jonathan-canales-portfolio-react/static/js/2.a0ded102.chunk.js",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.c59fefb5.js",
     "static/js/2.a0ded102.chunk.js",
     "static/css/main.f91430b2.chunk.css",
-    "static/js/main.31da4532.chunk.js"
+    "static/js/main.ec6b501f.chunk.js"
   ]
 }
