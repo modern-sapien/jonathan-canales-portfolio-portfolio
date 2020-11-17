@@ -39,15 +39,13 @@ const VrBackground = () => {
       camera.aspect = window.innerWidth / window.innerHeight;
       camera.updateProjectionMatrix();
     });
-
-
-    camera.position.z = Math.floor(Math.random()+150
-    );
+  
     camera.position.x = Math.floor(Math.random()-200
     );
     camera.position.y = Math.floor(Math.random()+10
     );
-
+    camera.position.z = Math.floor(Math.random()+150
+    );
    
     const createSpace = () => {
     let materialArray = []
@@ -78,16 +76,17 @@ const VrBackground = () => {
 
 
 
-    // const geometry1 = new THREE.BoxGeometry(2, 2, 2);
-    // const material1 = new THREE.MeshNormalMaterial({ wireframe: true });
-    // const mesh1 = new THREE.Mesh(geometry1, material1);
-    // scene.add(mesh1);
+    const geometry1 = new THREE.BoxGeometry(2, 2, 2);
+    const material1 = new THREE.MeshNormalMaterial({ wireframe: true });
+    const mesh1 = new THREE.Mesh(geometry1, material1);
+    scene.add(mesh1);
+    mesh1.position.set(-240,20,150)
 
-    // const geometry2 = new THREE.SphereGeometry(4, 4, 4);
-    // const material2 = new THREE.MeshNormalMaterial({ wireframe: true });
-    // const sphere2 = new THREE.Mesh(geometry2, material2);
-    // scene.add(sphere2);
-
+    const geometry2 = new THREE.SphereGeometry(4, 4, 4);
+    const material2 = new THREE.MeshNormalMaterial({ wireframe: true });
+    const sphere2 = new THREE.Mesh(geometry2, material2);
+    scene.add(sphere2);
+    sphere2.position.set(-240,20,150)
 
  
     const  controls = new OrbitControls(camera, renderer.domElement)
@@ -96,11 +95,17 @@ const VrBackground = () => {
 
     const animate = () => {
     requestAnimationFrame(animate)
-    // sphere2.rotation.x -= .015
-    // sphere2.rotation.y -= .015
+    sphere2.rotation.x -= .015
+    sphere2.rotation.y -= .015
+    sphere2.position.y -= .015
+    sphere2.position.x += .1
+ 
 
-    // mesh1.rotation.x += .02
-    // mesh1.rotation.y += .02
+    mesh1.rotation.x += .005
+    mesh1.rotation.y += .005
+    mesh1.position.y -= .015
+    mesh1.position.x += .1
+
     renderer.render(scene, camera);
     }
     animate()
