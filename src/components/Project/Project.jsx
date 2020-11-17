@@ -3,19 +3,26 @@ import {Link} from "react-router-dom";
 
 const Project = (props) => {
   return (
-    <div className="row mt-2">
-      {props.projects.map((project) => (
-        <div key={project.id} className="col-4 text-light pb-2 info">
+
+
+    <div className="carousel-item">
+    {props.projects.map((project) => (
+        <>
         <a href={project.deployed} target="blank">
-        <img className="project-image-container" src={project.img} alt={project.name}/>
-        </a>
-        <p className="my-0">{project.name}
-        </p>
+          <img src={project.img} className="d-block w-100" alt={project.name} /> </a>
+
+        <div key={project.id} className="carousel-caption d-none d-md-block">
+          <h5>{project.name}</h5>
         <a href={project.git}> <p className="mb-5 hyperlink">Github</p>
          </a>
          </div>
-      ))}
+         </>
+))}
     </div>
+
+
+   
+   
   );
 };
 

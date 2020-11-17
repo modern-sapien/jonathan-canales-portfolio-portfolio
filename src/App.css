@@ -80,13 +80,18 @@ min-height: calc( 100vh - 50px);
 
 .background{
   z-index: -100;
+  position: relative;
 }
 
+
+
 #info {
-	position: absolute;
+  position: absolute;
+  top: 15vh;
+  z-index: -1;
 	text-align: left;
   display: flex;
-  /* justify-self: center; */
+  justify-self: center;
   justify-content: space-evenly;
   background: whitesmoke;
   margin-top: 0;
@@ -99,7 +104,6 @@ min-height: calc( 100vh - 50px);
   max-width: 200px;
   min-height: 200px;
   height: auto;
-  margin: auto;
 }
 
 .content{

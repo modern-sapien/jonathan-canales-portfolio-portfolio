@@ -26,10 +26,11 @@ const VrBackground = () => {
       1000
     );
 
-
     const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setClearColor("#000000");
     renderer.setSize(window.innerWidth, window.innerHeight);
-    document.body.appendChild(renderer.domElement);
+    const container = document.getElementById("myCanvas");
+    container.appendChild(renderer.domElement);
 
     window.addEventListener("resize", () => {
       renderer.setSize(window.innerWidth, window.innerHeight);
@@ -102,8 +103,9 @@ const VrBackground = () => {
     }
 
     return (
-      <>
-      </>
+    
+      <div id="myCanvas" className="background"></div>
+   
 
     );
 

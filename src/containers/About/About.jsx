@@ -7,7 +7,7 @@ import AboutPhoto from "./home-canales.png";
 const About = () => {
   return (
     <>
-      <VrBackground/>
+      <VrBackground className="background"/>
       <div id="info" className="bg-transparent content row mt-3" >
                 <div className="col-sm-6 col-md-4 mt-3">
                   <img
@@ -25,6 +25,7 @@ const About = () => {
                  </div>
                  
             </div>  
+            
     </>
   );
 };
