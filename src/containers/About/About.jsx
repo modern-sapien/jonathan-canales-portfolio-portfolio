@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
       <VrBackground className="background"/>
-      <div id="info" className="bg-transparent content row mt-3" >
+      <div id="info" className="bg-transparent row mt-3" >
                 <div className="col-sm-6 col-md-4 mt-3 d-flex justify-content-center">
                   {/* <img
                     src={AboutPhoto}
@@ -17,9 +17,11 @@ const About = () => {
                   /> */}
                 </div>
                 <div className="col-sm-6 col-md-4  text-light py-3 content">
-                  <p> I’m a driven and bold Software Developer, UX Designer &
+                  <p> I’m a driven and bold Full Stack Developer, UX Designer &
                     Researcher that is passionate about solving problems through
                     intentional processes.
+                    </p>
+                  <p> I believe in rapid prototyping, design sprints, building something everyday, asking questions and learning through teaching.  
                     </p>
                     <div className="btn btn-light modern-sapien-btn col-12" id="projects-button"> PROJECTS</div>
                  </div>

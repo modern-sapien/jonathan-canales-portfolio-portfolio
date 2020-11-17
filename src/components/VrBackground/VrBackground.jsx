@@ -41,9 +41,9 @@ const VrBackground = () => {
     });
 
 
-    camera.position.z = Math.floor(Math.random()+300
+    camera.position.z = Math.floor(Math.random()+150
     );
-    camera.position.x = Math.floor(Math.random()-150
+    camera.position.x = Math.floor(Math.random()-200
     );
     camera.position.y = Math.floor(Math.random()+10
     );
@@ -69,7 +69,7 @@ const VrBackground = () => {
       materialArray[i].side = THREE.DoubleSide;
     }
 
-    let skyboxGeo = new THREE.BoxGeometry(1000, 1000, 1000)
+    let skyboxGeo = new THREE.BoxGeometry(800, 800, 800)
     let skybox = new THREE.Mesh(skyboxGeo, materialArray)
     scene.add(skybox);
     }
