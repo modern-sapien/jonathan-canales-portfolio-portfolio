@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import corona_bk from "./images/corona_bk.png"
 import corona_ft from "./images/corona_ft.png"
 import corona_lf from "./images/corona_lf.png"
@@ -8,22 +8,43 @@ import corona_dn from "./images/corona_dn.png"
 import * as THREE from "three";
 import OrbitControls from "three-orbitcontrols";
 
-class VrBackground extends Component {
-  componentDidMount() {
+const VrBackground = () => {
+  
     // let camera, scene, renderer;
     // let geometry, material, mesh, sphere;
 
+    useEffect(() => {
+    dimensionDoor()
+    }, [])
+
+    const dimensionDoor = () => {
+      const scene = new THREE.Scene();  
       const camera = new THREE.PerspectiveCamera(
       100,
       window.innerWidth / window.innerHeight,
       0.01,
       1000
     );
-    camera.position.z = Math.random() * Math.floor(100);
-    camera.position.y = Math.random() * Math.floor(200);
 
-    const scene = new THREE.Scene();
 
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    document.body.appendChild(renderer.domElement);
+
+    window.addEventListener("resize", () => {
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+    });
+
+
+    camera.position.z = Math.floor(Math.random()*25
+    );
+    camera.position.y = Math.floor(Math.random()*25
+    );
+
+   
+    const createSpace = () => {
     let materialArray = []
     let texture_ft = new THREE.TextureLoader().load(corona_ft)
     let texture_bk = new THREE.TextureLoader().load(corona_bk)
@@ -46,8 +67,12 @@ class VrBackground extends Component {
     let skyboxGeo = new THREE.BoxGeometry(1000, 1000, 1000)
     let skybox = new THREE.Mesh(skyboxGeo, materialArray)
     scene.add(skybox);
+    }
 
-    const geometry1 = new THREE.BoxGeometry(1.5, 1.5, 1.5);
+    createSpace()
+
+
+    const geometry1 = new THREE.BoxGeometry(2, 2, 2);
     const material1 = new THREE.MeshNormalMaterial({ wireframe: true });
     const mesh1 = new THREE.Mesh(geometry1, material1);
     scene.add(mesh1);
@@ -57,32 +82,31 @@ class VrBackground extends Component {
     const sphere2 = new THREE.Mesh(geometry2, material2);
     scene.add(sphere2);
 
-    const renderer = new THREE.WebGLRenderer({ antialias: true });
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    document.body.appendChild(renderer.domElement);
+
  
     const  controls = new OrbitControls(camera, renderer.domElement)
-      controls.minDistance = 1
-      controls.maxDistance = 1000
+    controls.minDistance = 1
+    controls.maxDistance = 325
 
     const animate = () => {
-      requestAnimationFrame(animate)
-      sphere2.rotation.x -= .02
-      sphere2.rotation.y -= .02
+    requestAnimationFrame(animate)
+    sphere2.rotation.x -= .015
+    sphere2.rotation.y -= .015
 
-      mesh1.rotation.x += .03
-      mesh1.rotation.y += .03
-      renderer.render(scene, camera);
+    mesh1.rotation.x += .02
+    mesh1.rotation.y += .02
+    renderer.render(scene, camera);
     }
     animate()
-  }
-  render() {
-    return (
 
-      <div className="background" ref={ref => (this.mount = ref)} />
+    }
+
+    return (
+      <>
+      </>
 
     );
-  }
+
 }
 
 export default VrBackground;

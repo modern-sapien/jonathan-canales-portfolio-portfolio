@@ -86,10 +86,10 @@ min-height: calc( 100vh - 50px);
 	position: absolute;
 	text-align: left;
   display: flex;
-  justify-self: center;
-  justify-content: center;
+  /* justify-self: center; */
+  justify-content: space-evenly;
   background: whitesmoke;
-  margin: auto;
+  margin-top: 0;
   font-size: 18px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -99,6 +99,7 @@ min-height: calc( 100vh - 50px);
   max-width: 200px;
   min-height: 200px;
   height: auto;
+  margin: auto;
 }
 
 .content{
@@ -125,9 +126,6 @@ min-height: calc( 100vh - 50px);
   margin-right: 0;
 }
 
-.pushdown{
-  margin-bottom: 1000px;
-}
 
 .hyperlink{
   color:rgb(255, 230, 0);

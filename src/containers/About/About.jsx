@@ -7,24 +7,24 @@ import AboutPhoto from "./home-canales.png";
 const About = () => {
   return (
     <>
-
       <VrBackground/>
-      <div id="info" className="bg-transparent content container row mt-3" >
-                <div className="col-sm-5 col-md-4 ml-5">
+      <div id="info" className="bg-transparent content row mt-3" >
+                <div className="col-sm-6 col-md-4 mt-3">
                   <img
                     src={AboutPhoto}
-                    className="image-container"
+                    className="image-container mx-5"
                     alt="A young developer smiles back at you."
                   />
                 </div>
-                <div className="col-sm-6 col-md-4 ml-5 text-light">
+                <div className="col-sm-6 col-md-4  text-light mt-5">
                   <p> I’m a driven and bold Software Developer, UX Designer &
                     Researcher that is passionate about solving problems through
                     intentional processes.
                     </p>
-                    <div className="btn btn-light modern-sapien-btn col-8" id="projects-button"> PROJECTS</div>
+                    <div className="btn btn-light modern-sapien-btn col-12" id="projects-button"> PROJECTS</div>
                  </div>
-            </div>
+                 
+            </div>  
     </>
   );
 };
