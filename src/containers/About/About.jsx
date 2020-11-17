@@ -16,13 +16,14 @@ const About = () => {
                     alt="A young developer smiles back at you."
                   /> */}
                 </div>
-                <div className="col-sm-6 col-md-4  text-light py-3 content">
+                <div className="col-sm-6 col-md-5  text-light py-3 content">
                   <p> I’m a driven and bold Full Stack Developer, UX Designer &
                     Researcher that is passionate about solving problems through
                     intentional processes.
                     </p>
-                  <p> I believe in rapid prototyping, design sprints, building something everyday, asking questions and learning through teaching.  
+                  <p> I believe in rapid prototyping, design sprints, asking questions and learning through teaching. 
                     </p>
+
                     <div className="btn btn-light modern-sapien-btn col-12" id="projects-button"> PROJECTS</div>
                  </div>
                  
