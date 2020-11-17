@@ -1,10 +1,12 @@
-import React, { Component, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import corona_bk from "./images/corona_bk.png"
 import corona_ft from "./images/corona_ft.png"
 import corona_lf from "./images/corona_lf.png"
 import corona_rt from "./images/corona_rt.png"
 import corona_up from "./images/corona_up.png"
 import corona_dn from "./images/corona_dn.png"
+import Canales from "./images/home-canales.png"
+import Helmet from "./images/helmet.png"
 import * as THREE from "three";
 import OrbitControls from "three-orbitcontrols";
 
@@ -39,9 +41,11 @@ const VrBackground = () => {
     });
 
 
-    camera.position.z = Math.floor(Math.random()*25
+    camera.position.z = Math.floor(Math.random()+350
     );
-    camera.position.y = Math.floor(Math.random()*25
+    camera.position.x = Math.floor(Math.random()-100
+    );
+    camera.position.y = Math.floor(Math.random()+10
     );
 
    
@@ -52,7 +56,7 @@ const VrBackground = () => {
     let texture_up = new THREE.TextureLoader().load(corona_up)
     let texture_dn = new THREE.TextureLoader().load(corona_dn)
     let texture_rt = new THREE.TextureLoader().load(corona_rt)
-    let texture_lf = new THREE.TextureLoader().load(corona_lf)
+    let texture_lf = new THREE.TextureLoader().load(Canales)
 
     materialArray.push(new THREE.MeshBasicMaterial({map: texture_ft}))
     materialArray.push(new THREE.MeshBasicMaterial({map: texture_bk}))
@@ -73,6 +77,7 @@ const VrBackground = () => {
     createSpace()
 
 
+
     const geometry1 = new THREE.BoxGeometry(2, 2, 2);
     const material1 = new THREE.MeshNormalMaterial({ wireframe: true });
     const mesh1 = new THREE.Mesh(geometry1, material1);
@@ -87,7 +92,7 @@ const VrBackground = () => {
  
     const  controls = new OrbitControls(camera, renderer.domElement)
     controls.minDistance = 1
-    controls.maxDistance = 325
+    controls.maxDistance = 250
 
     const animate = () => {
     requestAnimationFrame(animate)
@@ -104,7 +109,7 @@ const VrBackground = () => {
 
     return (
     
-      <div id="myCanvas" className="background"></div>
+      <div id="myCanvas" className="background" alt="a young developer smiles back at you in a 3d rendered space"></div>
    
 
     );

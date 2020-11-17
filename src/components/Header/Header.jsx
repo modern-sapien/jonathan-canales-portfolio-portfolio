@@ -1,11 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import logo from "./helmet.png"
 
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark dark-mode-nav ">
-      <NavLink className="navbar-brand ml-2" to="/jonathan-canales-portfolio-react/">
-        Jonathan Canales
+      <NavLink className="navbar-brand " to="/jonathan-canales-portfolio-react/">
+        <img src={logo} alt="a logo of a helmet" height="30px" width="auto" className="py-0 my-0"/>
       </NavLink>
 
       <button
