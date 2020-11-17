@@ -41,9 +41,9 @@ const VrBackground = () => {
     });
 
 
-    camera.position.z = Math.floor(Math.random()+350
+    camera.position.z = Math.floor(Math.random()+300
     );
-    camera.position.x = Math.floor(Math.random()-100
+    camera.position.x = Math.floor(Math.random()-150
     );
     camera.position.y = Math.floor(Math.random()+10
     );
@@ -78,15 +78,15 @@ const VrBackground = () => {
 
 
 
-    const geometry1 = new THREE.BoxGeometry(2, 2, 2);
-    const material1 = new THREE.MeshNormalMaterial({ wireframe: true });
-    const mesh1 = new THREE.Mesh(geometry1, material1);
-    scene.add(mesh1);
+    // const geometry1 = new THREE.BoxGeometry(2, 2, 2);
+    // const material1 = new THREE.MeshNormalMaterial({ wireframe: true });
+    // const mesh1 = new THREE.Mesh(geometry1, material1);
+    // scene.add(mesh1);
 
-    const geometry2 = new THREE.SphereGeometry(4, 4, 4);
-    const material2 = new THREE.MeshNormalMaterial({ wireframe: true });
-    const sphere2 = new THREE.Mesh(geometry2, material2);
-    scene.add(sphere2);
+    // const geometry2 = new THREE.SphereGeometry(4, 4, 4);
+    // const material2 = new THREE.MeshNormalMaterial({ wireframe: true });
+    // const sphere2 = new THREE.Mesh(geometry2, material2);
+    // scene.add(sphere2);
 
 
  
@@ -96,11 +96,11 @@ const VrBackground = () => {
 
     const animate = () => {
     requestAnimationFrame(animate)
-    sphere2.rotation.x -= .015
-    sphere2.rotation.y -= .015
+    // sphere2.rotation.x -= .015
+    // sphere2.rotation.y -= .015
 
-    mesh1.rotation.x += .02
-    mesh1.rotation.y += .02
+    // mesh1.rotation.x += .02
+    // mesh1.rotation.y += .02
     renderer.render(scene, camera);
     }
     animate()

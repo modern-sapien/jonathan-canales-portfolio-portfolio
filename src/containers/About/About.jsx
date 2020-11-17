@@ -16,7 +16,7 @@ const About = () => {
                     alt="A young developer smiles back at you."
                   /> */}
                 </div>
-                <div className="col-sm-6 col-md-4  text-light mt-5 py-3 content">
+                <div className="col-sm-6 col-md-4  text-light py-3 content">
                   <p> I’m a driven and bold Software Developer, UX Designer &
                     Researcher that is passionate about solving problems through
                     intentional processes.
