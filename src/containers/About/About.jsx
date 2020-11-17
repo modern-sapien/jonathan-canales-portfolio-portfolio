@@ -9,14 +9,14 @@ const About = () => {
     <>
       <VrBackground className="background"/>
       <div id="info" className="bg-transparent row mt-3" >
-                <div className="col-sm-6 col-md-4 mt-3 d-flex justify-content-center">
+                <div className="col-sm-6 col-md-6 mt-3 d-flex justify-content-center">
                   {/* <img
                     src={AboutPhoto}
                     className="image-container mx-5"
                     alt="A young developer smiles back at you."
                   /> */}
                 </div>
-                <div className="col-sm-6 col-md-5  text-light py-3 content">
+                <div className="col-sm-6 col-md-4  text-light py-3 content">
                   <p> I’m a driven and bold Full Stack Developer, UX Designer &
                     Researcher that is passionate about solving problems through
                     intentional processes.
