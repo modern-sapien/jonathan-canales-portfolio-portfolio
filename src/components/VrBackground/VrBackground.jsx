@@ -44,7 +44,7 @@ const VrBackground = () => {
     );
     camera.position.y = Math.floor(Math.random()+10
     );
-    camera.position.z = Math.floor(Math.random()+150
+    camera.position.z = Math.floor(Math.random()+300
     );
    
     const createSpace = () => {

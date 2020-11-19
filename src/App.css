@@ -7,16 +7,18 @@ body {
   background: black;
 }
 
-a:link {
+/* a:link {
   color:white;
   background-color: transparent;
   text-decoration: none;
   font-size: 16px;
-}
+} */
 
 
 .nav-item{
   border-left: 2px solid whitesmoke;
+  color: whitesmoke;
+  background: black;
   margin-right: 10px;
   font-weight: bold;
 }
@@ -108,11 +110,28 @@ min-height: calc( 100vh - 50px);
   background: black;
 }
 
+.project-main-container {
+  padding-right: 10px;
+  padding-right: 10px;
+  background: black;
+}
+
 .project-image-container{
   min-width: auto;
   max-width: 250px;
   min-height: 150px;
   height: auto;
+  max-height: 200px;
+}
+
+.project-text-container{
+  box-shadow: 1px 1px 10px whitesmoke;
+  background: black;
+  color: whitesmoke;
+  padding-left: 20px;
+  padding-right: 10px;
+  width: 250px;
+  max-width: 250px;
 }
 
 .small-font{

@@ -67,7 +67,7 @@ const projects = [
 const Portfolio = () => {
   return (
     <>
-    {/* <VrBackground></VrBackground> */}
+    <VrBackground></VrBackground>
       <div id="info" className="row my-4 pb-4 bg-transparent">
           <div className="row mt-4">
               <h3 className="text-light col-12">Project Gallery</h3>
