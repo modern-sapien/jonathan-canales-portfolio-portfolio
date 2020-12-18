@@ -1,6 +1,4 @@
 import React from 'react';
-import {NavLink} from "react-router-dom"
-
 
 const FooterIcon = (props) => {
     return (

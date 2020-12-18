@@ -7,13 +7,9 @@ body {
   background: black;
 }
 
-/* a:link {
-  color:white;
-  background-color: transparent;
-  text-decoration: none;
-  font-size: 16px;
-} */
-
+.shadow-text{
+  text-shadow: 2px 2px 10px rgb(255, 230, 0);
+}
 
 .nav-item{
   border-left: 2px solid whitesmoke;
@@ -117,10 +113,10 @@ min-height: calc( 100vh - 50px);
 }
 
 .project-image-container{
-  min-width: auto;
+  min-width: 250px;
   max-width: 250px;
   min-height: 150px;
-  height: auto;
+  height: 200px;
   max-height: 200px;
 }
 
