@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/jonathan-canales-portfolio-react/static/css/main.5f3cf74a.chunk.css",
-    "main.js": "/jonathan-canales-portfolio-react/static/js/main.b0aed1bb.chunk.js",
-    "main.js.map": "/jonathan-canales-portfolio-react/static/js/main.b0aed1bb.chunk.js.map",
+    "main.css": "/jonathan-canales-portfolio-react/static/css/main.fe1e6b25.chunk.css",
+    "main.js": "/jonathan-canales-portfolio-react/static/js/main.7d598969.chunk.js",
+    "main.js.map": "/jonathan-canales-portfolio-react/static/js/main.7d598969.chunk.js.map",
     "runtime-main.js": "/jonathan-canales-portfolio-react/static/js/runtime-main.9d8954e9.js",
     "runtime-main.js.map": "/jonathan-canales-portfolio-react/static/js/runtime-main.9d8954e9.js.map",
-    "static/js/2.32adfaf5.chunk.js": "/jonathan-canales-portfolio-react/static/js/2.32adfaf5.chunk.js",
-    "static/js/2.32adfaf5.chunk.js.map": "/jonathan-canales-portfolio-react/static/js/2.32adfaf5.chunk.js.map",
+    "static/js/2.15bb5adb.chunk.js": "/jonathan-canales-portfolio-react/static/js/2.15bb5adb.chunk.js",
+    "static/js/2.15bb5adb.chunk.js.map": "/jonathan-canales-portfolio-react/static/js/2.15bb5adb.chunk.js.map",
     "static/js/3.5fedf894.chunk.js": "/jonathan-canales-portfolio-react/static/js/3.5fedf894.chunk.js",
     "static/js/3.5fedf894.chunk.js.map": "/jonathan-canales-portfolio-react/static/js/3.5fedf894.chunk.js.map",
     "index.html": "/jonathan-canales-portfolio-react/index.html",
-    "static/css/main.5f3cf74a.chunk.css.map": "/jonathan-canales-portfolio-react/static/css/main.5f3cf74a.chunk.css.map",
-    "static/js/2.32adfaf5.chunk.js.LICENSE.txt": "/jonathan-canales-portfolio-react/static/js/2.32adfaf5.chunk.js.LICENSE.txt",
+    "static/css/main.fe1e6b25.chunk.css.map": "/jonathan-canales-portfolio-react/static/css/main.fe1e6b25.chunk.css.map",
+    "static/js/2.15bb5adb.chunk.js.LICENSE.txt": "/jonathan-canales-portfolio-react/static/js/2.15bb5adb.chunk.js.LICENSE.txt",
     "static/media/corona_bk.97e76adb.png": "/jonathan-canales-portfolio-react/static/media/corona_bk.97e76adb.png",
     "static/media/corona_dn.47349e0d.png": "/jonathan-canales-portfolio-react/static/media/corona_dn.47349e0d.png",
     "static/media/corona_ft.7254c08d.png": "/jonathan-canales-portfolio-react/static/media/corona_ft.7254c08d.png",
@@ -21,17 +21,16 @@
     "static/media/employee-directory.7e0d72c1.png": "/jonathan-canales-portfolio-react/static/media/employee-directory.7e0d72c1.png",
     "static/media/helmet.9c0de60a.png": "/jonathan-canales-portfolio-react/static/media/helmet.9c0de60a.png",
     "static/media/home-canales.c7a0f639.png": "/jonathan-canales-portfolio-react/static/media/home-canales.c7a0f639.png",
-    "static/media/note-taker.b7330bc6.png": "/jonathan-canales-portfolio-react/static/media/note-taker.b7330bc6.png",
     "static/media/only-dungeons.fcdb8833.png": "/jonathan-canales-portfolio-react/static/media/only-dungeons.fcdb8833.png",
     "static/media/persona-gen.9129d816.png": "/jonathan-canales-portfolio-react/static/media/persona-gen.9129d816.png",
     "static/media/pwa-budget.bc0b8452.png": "/jonathan-canales-portfolio-react/static/media/pwa-budget.bc0b8452.png",
-    "static/media/quiz-game-screenshot.42cdbd87.png": "/jonathan-canales-portfolio-react/static/media/quiz-game-screenshot.42cdbd87.png",
+    "static/media/vram.b57ceb82.png": "/jonathan-canales-portfolio-react/static/media/vram.b57ceb82.png",
     "static/media/weather-dash-display.70960b5f.png": "/jonathan-canales-portfolio-react/static/media/weather-dash-display.70960b5f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9d8954e9.js",
-    "static/js/2.32adfaf5.chunk.js",
-    "static/css/main.5f3cf74a.chunk.css",
-    "static/js/main.b0aed1bb.chunk.js"
+    "static/js/2.15bb5adb.chunk.js",
+    "static/css/main.fe1e6b25.chunk.css",
+    "static/js/main.7d598969.chunk.js"
   ]
 }
